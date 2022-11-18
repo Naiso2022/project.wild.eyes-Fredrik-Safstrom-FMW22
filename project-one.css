@@ -37,22 +37,26 @@ a:link {
     text-decoration: none;
     }
   
+
 a:visited {
     color: white;
     background-color: transparent;
     text-decoration: none;
     }
   
+
 a:hover {
     color: rgba(231, 74, 68, 0.911);
     background-color: transparent;
     text-decoration: none;
     }
   
+
 .home {
     padding-left: 50px;
     padding-right: 30px;
-}
+    }
+
 
 header {
     grid-area: header;
@@ -64,6 +68,7 @@ header {
     grid-area: left-side;
     background-color: black;
     }
+
 
 .water {
     margin-top: 15px;
@@ -80,6 +85,7 @@ header {
     grid-template-areas:
         "h1 pic";
     }
+
 
 h1 {
     grid-area: h1;
@@ -106,6 +112,7 @@ h2 {
     margin-top: 30px;
     }
 
+
 .button1 {
     border: 1px solid rgba(231, 74, 68, 0.911);
     background-color: rgba(231, 74, 68, 0.911);
@@ -117,6 +124,7 @@ h2 {
     font-family:sans-serif;
     cursor: pointer;
     }
+
 
 .button2 {
     border: 1px solid rgba(231, 74, 68, 0.911);;
@@ -148,9 +156,11 @@ h2 {
     text-align: center;
     }
 
+
 .flower {
     margin-top: 15px;
     }
+
 
 .footer {
     grid-area: footer;
@@ -159,12 +169,10 @@ h2 {
     text-align: center;
     }
 
+
 .socialmedia {
     cursor: pointer;
     }
-
-
-
 
 
 /* @media screen max-width: 1211px */
@@ -178,6 +186,7 @@ h2 {
     flex-direction: column;
     }
 
+    
 .button1 {
     margin-left: 0px;
     margin-top: 15px;
