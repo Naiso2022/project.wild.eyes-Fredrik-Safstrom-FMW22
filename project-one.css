@@ -72,6 +72,7 @@ header {
 
 .water {
     margin-top: 15px;
+    width: 350px;
     }
 
 
@@ -146,6 +147,7 @@ h2 {
 .woman {
     margin-top: 80px;
     margin-left: 30px;
+    width: 350px;
     }
 
 
@@ -172,6 +174,7 @@ h2 {
 
 .socialmedia {
     cursor: pointer;
+    width: 250px;
     }
 
 
